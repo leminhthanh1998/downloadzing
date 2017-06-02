@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="DownloadZingModernUI.Pages.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="370" d:DesignWidth="600">
+    <Grid Style="{StaticResource ContentRoot}">
+            <StackPanel Margin="0,-32,0,0">
+                <TextBlock Text="Hello !!!" Style="{StaticResource Heading1}" Margin="0,0,0,8"/>
+            <mui:BBCodeBlock BBCode="[b]DownloadZing[/b] là một công cụ cho phép bạn download cũng như xem trực tuyến tẹt ga các bài hát và video trên Zing MP3, Zing Radio và Zing TV một cách hoàn toàn miễn phí, không cần phải có tài khoản VIP! À, công cụ còn hỗ trợ thêm 3 dịch vụ nghe nhạc trực tuyến khác nữa đấy!&#13;&#10;&#13;&#10;Bạn có thể download các phiên bản mới nhất của công cụ tại [url=http://lêminhthành.vn/downloadzing]đây[/url]. Công cụ 100% không chèn virus hay bất cứ phần mềm độc hại nào vào máy tính của bạn.
+                             &#13;&#10;&#13;&#10;Nếu cảm thấy khó sử dụng, bạn có thể xem hướng dẫn trực tuyến tại [url=http://lêminhthành.vn/downloadzing]đây[/url] hoặc xem hướng dẫn tại menu [b]Trợ Giúp[/b]&#13;&#10;&#13;&#10;[b]Lưu ý: Đối với tính năng Download, máy tính bạn phải cài đặt phần mềm IDM để có thể sử dụng được công cụ![/b]" Margin="0,0,0,32" />
+                </StackPanel>
+    </Grid>
+</UserControl>

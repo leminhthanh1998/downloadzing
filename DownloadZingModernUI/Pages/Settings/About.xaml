@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="DownloadZingModernUI.Pages.Settings.About"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="370" d:DesignWidth="600">
+    <Grid Style="{StaticResource ContentRoot}">
+        <StackPanel Margin="0,-15,0,0">
+            <TextBlock Text="Lê Minh Thành" Style="{StaticResource Heading1}" Margin="0,0,0,8"/>
+            <mui:BBCodeBlock BBCode="[b]Website: [/b][url=http://lêminhthành.vn]http://lêminhthành.vn[/url]&#13;&#10;&#13;&#10;[b]Email: [/b][url=mailto:leminhthanh1998@outlook.com]leminhthanh1998@outlook.com[/url] " Margin="0,0,0,32" />
+        </StackPanel>
+    </Grid>
+</UserControl>

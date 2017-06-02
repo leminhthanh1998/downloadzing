@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="DownloadZingModernUI.Pages.HowToUse"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="370" d:DesignWidth="600">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer Margin="-5,-20,0,-15">
+            <StackPanel >
+                <TextBlock Text="Hướng dẫn" Style="{StaticResource Heading1}" Margin="0,0,0,8"/>
+                <mui:BBCodeBlock BBCode="[b]DownloadZing[/b] là một công cụ cho phép bạn download cũng như xem trực tuyến tẹt ga các bài hát, video chất lượng cao trên Zing MP3 và Zing TV một cách hoàn toàn miễn phí, không cần phải có tài khoản VIP!
+                                 &#13;&#10;&#13;&#10;Hiện tại công cụ hỗ trợ các chức năng sau:&#13;&#10;+Download và nghe nhạc trực tuyến chất lượng cao chuẩn 128/320 kbps trên Zing MP3.&#13;&#10;+Download và nghe trực tuyến các album/playlist chuẩn 320 kbps trên Zing MP3.&#13;&#10;+Download và xem trực tuyến các video chuẩn HD 1080/720p trên Zing MP3.&#13;&#10;+Download và xem trực tuyến các bộ phim, chương trình chuẩn 720/480p trên Zing TV.&#13;&#10;+Download và nghe trực tuyến các bài hát chất lượng cao trên Zing Radio.&#13;&#10;+Download các album từ Chiasenhac, Nhaccuatui và Nhac.vui.vn.
+                                 &#13;&#10;&#13;&#10;Các bước sử dụng như sau:&#13;&#10;+Copy link cần tải và dán vào rồi click vào nút Tròn để công cụ tiến hành kiểm tra chất lượng có thể tải và xem trên web.
+                                 &#13;&#10;+Chọn nơi lưu file bằng cách click vào nút Vuông.&#13;&#10;+Chọn chất lượng file cần tải.&#13;&#10;+Click Download, IDM sẽ tiến hành tải về cho bạn!
+                                 &#13;&#10;+Click Web để xem trực tuyến trên trình duyệt web!
+                                 &#13;&#10;&#13;&#10;Đối với tải Album và từ Zing Radio, mặc định công cụ sẽ tải các bài hát với chất lượng 320 kbps, nếu không có chất lượng 320 kbps công cụ sẽ tải bài hát ở chất lượng 128 kbps. Đồng thời sẽ có tùy chọn Tải Album về ngay khi load xong, nếu bạn không chọn Tùy chọn này, các bài hát sẽ nằm trong hàng chờ của IDM.
+                                 &#13;&#10;&#13;&#10;[b]Lưu ý: Đối với tính năng Download, hãy đảm bảo máy tính của bạn đã cài đặt phần mềm IDM trước![/b]"
+                                 Margin="0,0,0,32" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

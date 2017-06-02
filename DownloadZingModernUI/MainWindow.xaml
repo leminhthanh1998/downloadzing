@@ -1,0 +1,37 @@
+﻿<mui:ModernWindow x:Class="DownloadZingModernUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        Title="DownloadZing 4.8 - Code by Le Minh Thanh" IsTitleVisible="True" Height="398.708" Width="600"
+        LogoData="M12,1A9,9 0 0,1 21,10V17A3,3 0 0,1 18,20H15V12H19V10A7,7 0 0,0 12,3A7,7 0 0,0 5,10V12H9V20H6A3,3 0 0,1 3,17V10A9,9 0 0,1 12,1M15,24V22H17V24H15M11,24V22H13V24H11M7,24V22H9V24H7Z"
+                  ContentSource="/Pages/Home.xaml" ResizeMode="CanMinimize">
+        
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="Home">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="Giới thiệu" Source="/Pages/Home.xaml"/>
+                <mui:Link DisplayName="Bài hát" Source="Pages/MP3.xaml"></mui:Link>
+                <mui:Link DisplayName="Video" Source="Pages/Video.xaml"></mui:Link>
+                <mui:Link DisplayName="Album" Source="Pages/Album.xaml"></mui:Link>
+                <mui:Link DisplayName="Zing TV" Source="Pages/TV.xaml"></mui:Link>
+                <mui:Link DisplayName="Zing Radio" Source="Pages/Radio.xaml"></mui:Link>
+                <mui:Link DisplayName="Nhiều hơn" Source="Pages/More.xaml"></mui:Link>
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="Cài đặt" >
+            <mui:LinkGroup.Links>
+                <mui:Link  Source="/Pages/SettingsPage.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="Trợ giúp" >
+            <mui:LinkGroup.Links>
+                <mui:Link Source="Pages/Help.xaml"></mui:Link>
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+    
+    <mui:ModernWindow.TitleLinks>
+        <mui:Link DisplayName="Góp ý" Source="mailto:leminhthanh1998@outlook.com" />
+        <mui:Link DisplayName="Update" Source="http://lêminhthành.vn/downloadzing" />
+    </mui:ModernWindow.TitleLinks>
+</mui:ModernWindow>
