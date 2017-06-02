@@ -106,7 +106,6 @@
     <Compile Include="Pages\More.xaml.cs">
       <DependentUpon>More.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WoimDownloader.cs" />
     <Compile Include="Pages\Radio.xaml.cs">
       <DependentUpon>Radio.xaml</DependentUpon>
     </Compile>
